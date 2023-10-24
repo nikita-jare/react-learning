@@ -1,49 +1,56 @@
-import { useState } from 'react'
+//import { useState } from 'react'
+import React, {useState} from 'react';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-// let todo = {
-// title: "Assignment 1",
-// desc: "Complete CSOR Assignment 1",
-// id: 1
-// }
+//custom hook
+function useTodos(){
+  const[todos, setTodo] = React.useState([]);
 
-/* This wont work because react needs to know if it is a state variable*/
-// setInterval(()=>{
-//   todo.title = "njsdfnvjkdf"
-// },1000)
-
-function App() {
-  //this is how you render a todo, and react know to watch the state of this variable
-  //It says whenever you are updating, call setTodo
-  const[todo, setTodo] = useState({
-    title: "Assignment 1",
-    desc: "Complete CSOR Assignment 1",
-    id: 1
-    });
+    React.useEffect(()=>{
+      fetch("http://localhost:3000/todos",{
+        method:"GET"
+      }).then((response)=>{
+        response.json().then((data)=>{
+          console.log(data);
+          setTodo(data);
+        })
+      });
+    }, []);
 
   setInterval(()=>{
-    setTodo({
-      title: "Assignment 10",
-      desc: "Complete CSOR Assignment 10",
-      id: 2
-    })
-  }, 2000)
-
-  return (
-  <>
-    <h1>Hello </h1>
-    <span>{todo.title}</span>
-    {todo.desc}
-    {todo.id}
-    <PersonName firstname={"Nikita"} lastname={"Jare"}></PersonName>
-  </>
-  )
-
+    fetch("http://localhost:3000/todos",{
+        method:"GET"
+      }).then((response)=>{
+        response.json().then((data)=>{
+          console.log(data);
+          setTodo(data);
+        })
+      });
+  }, 1000)
+  return todos
 }
 
-//this is component, it can accept props i.e states
+function App() {
+  const todos = useTodos()
+  
+  return (
+    
+    <div>
+      <PersonName firstname={"Nikita"} lastname={"Jare"}></PersonName>
+      {todos.map(todo => {
+        return <div>
+          {todo.title}
+          {todo.description}
+          <button>Delete</button>
+          <br/>
+        </div>
+      })}
+    </div>
+    )
+}
+
 function PersonName(props){
   return <div>
     {props.firstname} {props.lastname}
