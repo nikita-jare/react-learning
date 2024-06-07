@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>React</title>
+</head>
+
+<body>
+    <!-- HTML code: <h1>Hello World</h1> -->
+
+    <!-- Vanilla JS code: <div id="root"></div>
+    <script>
+        const h1 = document.createElement('h1');
+        h1.textContent = 'Hello World from JS!';
+        document.getElementById('root').append(h1);
+    </script>> -->
+
+    <!-- React code: Using CDN-->
+    <!--Go to your browser console and look for variables like React, ReactDOM-->
+    <div id="root"></div>
+    <script 
+        crossorigin
+        src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script> 
+    <script 
+        crossorigin
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- <script>
+        const h1 = React.createElement('h1', {}, "Hello World from React!");
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(h1);
+    </script> -->
+    <!-- Not a good practice to create whol script here so create in a separate file-->
+    <script src="./app.js"></script>
+</body>
+</html>
