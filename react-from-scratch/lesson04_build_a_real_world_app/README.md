@@ -7,13 +7,15 @@
   2. What components will my app have
 
 2. Config driven UI
-   different offers carousel according to the location
+   - different offers carousel according to the location
 
 Any UI has - UI layer and Data Layer
 Put all your images on CDN.
 
 Good code is to destructure data in props.
+
 Whenever you are mapping - you have to always give a key
+
 Why do we need keys?
 
 - When we have lot of data rendered from multiple components i.e when there are many components at the same level, they need to have unique ids. Suppose there are no IDs, if a new restraunt comes, then DOM will re-render all the components. Whereas with keys, we can have a unique ID and DOM will only re-render the component that has been modified and has that unique ID.
