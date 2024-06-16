@@ -18,7 +18,7 @@ const RestaurantMenu = () => {
 
   console.log(itemCards);
   return (
-    <div className="border p-3 m-5 shadow-2xl">
+    <div className="border p-3 m-5 shadow-xl">
       <div className="flex justify-between m-2">
         <h1 className="text-2xl font-bold m-2">{name}</h1>
         <h5 className="text-m font-bold text-green-500 m-2">
@@ -33,7 +33,7 @@ const RestaurantMenu = () => {
         {itemCards.map((item) => (
           <li
             key={item.card.info.id}
-            className="border p-2 m-2 shadow-xl w-full justify-between grid grid-cols-12"
+            className="border p-2 m-2 shadow-xl w-full justify-between grid grid-cols-12 hover:scale-y-105 hover:bg-slate-100 dark:hover:bg-slate-900"
           >
             <div className="font-semibold p-2 col-span-3">
               {item.card.info.name}

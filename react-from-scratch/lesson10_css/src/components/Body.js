@@ -44,7 +44,7 @@ const Body = () => {
   console.log(filteredRestaurants);
 
   return (
-    <div className="body">
+    <div>
       <div className="flex justify-center">
         <input
           className="border border-slate-50 shadow-xl w-3/4 p-2 ml-5 my-5 rounded bg-slate-100 "

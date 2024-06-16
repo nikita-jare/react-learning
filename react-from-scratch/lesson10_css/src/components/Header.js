@@ -18,19 +18,18 @@ const Header = () => {
   const online = useOnlineStatus();
 
   return (
-    <div className="flex justify-between shadow-lg bg-slate-50">
-      <div className="logo-container">
-        <img className="w-24" src={LOGO_URL} />
+    <div className="flex justify-between shadow-lg bg-slate-50 dark:bg-slate-950">
+      <div className="border shadow-xl">
+        <img className="w-28 h-28" src={LOGO_URL} />
       </div>
       <div className="flex items-center">
-        <ul className="flex p-4 m-4">
+        <ul className="flex p-4 m-4 font-bold ">
           <li className="p-3">{online ? "Online 🟢" : "Offline 🔴"}</li>
           <li className="p-3">
             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
               Home
             </Link>
           </li>
-
           <li className="p-3">
             <Link
               to="/about"
