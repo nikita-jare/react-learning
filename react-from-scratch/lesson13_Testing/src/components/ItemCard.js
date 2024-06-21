@@ -25,6 +25,7 @@ const ItemCard = ({ item }) => {
     <div
       key={item?.card?.info?.id}
       className="border-b p-10 justify-center grid grid-cols-12"
+      data-testid="item-card"
     >
       <div className="font-semibold p-2 m-2 col-span-10">
         <div className="font-semibold col-span-10">

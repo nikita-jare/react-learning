@@ -35,3 +35,22 @@ Setting up Testing:
 - Include @babel/preset-react in babel.config.js
 - I still got an error saying Cannot find module '@testing-library/dom' so I installed it separately
 - Add @testing-library/jest-dom
+
+Unit testing: added for Header, RestaurantCard, Contact acomponents in isolation
+
+Integration testing: Search flow
+Body component will fail as it didnt find fetch function as fetch is provided by browser. So we create a mock fetch function in Body.js
+
+test cases cannot make an actual API call: so we need to create mock fetch function and mock data:
+
+`globalThis.fetch = jest.fn(() =>
+  Promise.resolve({
+    json: () => Promise.resolve(data),
+  })
+);
+`
+Whenever you have async operation which updates state use act
+When testing, code that causes React state updates should be wrapped into act
+act function returns promise and we need to await. It comes from react-dom/test-utils. It takes async callback function
+
+To write something inside input box, we need to trigger onChange event

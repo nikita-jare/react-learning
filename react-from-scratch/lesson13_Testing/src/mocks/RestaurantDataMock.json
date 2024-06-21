@@ -1,0 +1,1502 @@
+{
+  "data": {
+    "tid": "9612c9bb-3e3e-4752-b2ab-b489afb24fe9",
+    "sid": "ejdfda99-a1eb-49ab-883c-83d9d549a638",
+    "deviceId": "9e3ca4d3-b846-1e8b-5b51-fae8dbfc25ae",
+    "requestId": "f74de370-374b-43c4-998c-6550c640b779",
+    "apiTime": "2024-06-21T20:23:54.745Z",
+    "success": {
+      "statusMessage": "done successfully",
+      "pageOffset": {
+        "nextOffset": "CJY7ELQ4KIDAisT8y/bSHjDUEA==",
+        "widgetOffset": {
+          "NewListingView_category_bar_chicletranking_TwoRows": "",
+          "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+          "Restaurant_Group_WebView_SEO_PB_Theme": "",
+          "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "11",
+          "inlineFacetFilter": "",
+          "restaurantCountWidget": ""
+        }
+      },
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+              "sortConfigs": [
+                {
+                  "key": "relevance",
+                  "title": "Relevance(Default)",
+                  "selected": true,
+                  "defaultSelection": true
+                },
+                {
+                  "key": "deliveryTimeAsc",
+                  "title": "DeliveryTime"
+                },
+                {
+                  "key": "modelBasedRatingDesc",
+                  "title": "Rating"
+                },
+                {
+                  "key": "costForTwoAsc",
+                  "title": "Cost:LowtoHigh"
+                },
+                {
+                  "key": "costForTwoDesc",
+                  "title": "Cost:HightoLow"
+                }
+              ],
+              "restaurantCount": 1596,
+              "facetList": [
+                {
+                  "label": "Delivery Time",
+                  "id": "deliveryTime",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Fast Delivery",
+                      "id": "deliveryTimefacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filter by"
+                },
+                {
+                  "label": "Cuisines",
+                  "id": "catalog_cuisines",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Afghani",
+                      "id": "query_afghani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "American",
+                      "id": "query_american",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Andhra",
+                      "id": "query_andhra",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Arabian",
+                      "id": "query_arabian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Asian",
+                      "id": "query_asian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Awadhi",
+                      "id": "query_awadhi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bakery",
+                      "id": "query_bakery",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Barbecue",
+                      "id": "query_barbecue",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bengali",
+                      "id": "query_bengali",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Beverages",
+                      "id": "query_beverages",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bhutanese",
+                      "id": "query_bhutanese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Biryani",
+                      "id": "query_biryani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bubble Tea",
+                      "id": "query_bubble_tea",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Buffalo meat",
+                      "id": "query_buffalo_meat",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Burger",
+                      "id": "query_burger",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Burgers",
+                      "id": "query_burgers",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Burmese",
+                      "id": "query_burmese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cafe",
+                      "id": "query_cafe",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cakes & Pastries",
+                      "id": "query_cakes_&_pastries",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cakes and Pastries",
+                      "id": "query_cakes_and_pastries",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Chaat",
+                      "id": "query_chaat",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Chinese",
+                      "id": "query_chinese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Coastal",
+                      "id": "query_coastal",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Coffee",
+                      "id": "query_coffee",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Combo",
+                      "id": "query_combo",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Continental",
+                      "id": "query_continental",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Default",
+                      "id": "query_default",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Desserts",
+                      "id": "query_desserts",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "European",
+                      "id": "query_european",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Fast Food",
+                      "id": "query_fast_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Fast food",
+                      "id": "query_fast_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "German",
+                      "id": "query_german",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Goan",
+                      "id": "query_goan",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Grill",
+                      "id": "query_grill",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Gujarati",
+                      "id": "query_gujarati",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Healthy Food",
+                      "id": "query_healthy_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Home Food",
+                      "id": "query_home_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Hyderabadi",
+                      "id": "query_hyderabadi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ice Cream",
+                      "id": "query_ice_cream",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ice Cream Cakes",
+                      "id": "query_ice_cream_cakes",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Indian",
+                      "id": "query_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Italian",
+                      "id": "query_italian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Italian-American",
+                      "id": "query_italian-american",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Jain",
+                      "id": "query_jain",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Japanese",
+                      "id": "query_japanese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Juices",
+                      "id": "query_juices",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Kebabs",
+                      "id": "query_kebabs",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Kerala",
+                      "id": "query_kerala",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Keto",
+                      "id": "query_keto",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Konkan",
+                      "id": "query_konkan",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Korean",
+                      "id": "query_korean",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Lebanese",
+                      "id": "query_lebanese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Lucknowi",
+                      "id": "query_lucknowi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Maharashtrian",
+                      "id": "query_maharashtrian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Malaysian",
+                      "id": "query_malaysian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Malwani",
+                      "id": "query_malwani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mangalorean",
+                      "id": "query_mangalorean",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Meat",
+                      "id": "query_meat",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mediterranean",
+                      "id": "query_mediterranean",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mexican",
+                      "id": "query_mexican",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Middle Eastern",
+                      "id": "query_middle_eastern",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Momos",
+                      "id": "query_momos",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mughlai",
+                      "id": "query_mughlai",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Navratri Special",
+                      "id": "query_navratri_special",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Nepalese",
+                      "id": "query_nepalese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "North Eastern",
+                      "id": "query_north_eastern",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "North Indian",
+                      "id": "query_north_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Oriental",
+                      "id": "query_oriental",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Paan",
+                      "id": "query_paan",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Pan-Asian",
+                      "id": "query_pan-asian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Parsi",
+                      "id": "query_parsi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Pastas",
+                      "id": "query_pastas",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Pizzas",
+                      "id": "query_pizzas",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Punjabi",
+                      "id": "query_punjabi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rajasthani",
+                      "id": "query_rajasthani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rolls & Wraps",
+                      "id": "query_rolls_&_wraps",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Salads",
+                      "id": "query_salads",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Seafood",
+                      "id": "query_seafood",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Sindhi",
+                      "id": "query_sindhi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Snacks",
+                      "id": "query_snacks",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "South Indian",
+                      "id": "query_south_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Steakhouse",
+                      "id": "query_steakhouse",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Street Food",
+                      "id": "query_street_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Sushi",
+                      "id": "query_sushi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Sweets",
+                      "id": "query_sweets",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Tandoor",
+                      "id": "query_tandoor",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Tex-Mex",
+                      "id": "query_tex-mex",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Thai",
+                      "id": "query_thai",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Thalis",
+                      "id": "query_thalis",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Tibetan",
+                      "id": "query_tibetan",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Turkish",
+                      "id": "query_turkish",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Vietnamese",
+                      "id": "query_vietnamese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Waffle",
+                      "id": "query_waffle",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "briyani",
+                      "id": "query_briyani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "fast food",
+                      "id": "query_fast_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "fastfood",
+                      "id": "query_fastfood",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "rolls",
+                      "id": "query_rolls",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "sandwich",
+                      "id": "query_sandwich",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "canSearch": true,
+                  "subLabel": "Filter by cuisine",
+                  "openFilter": true
+                },
+                {
+                  "label": "Explore",
+                  "id": "explore",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "New on Swiggy",
+                      "id": "newfacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD"
+                },
+                {
+                  "label": "Ratings",
+                  "id": "rating",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Ratings 4.5+",
+                      "id": "ratingfacetquery3",
+                      "analytics": {}
+                    },
+                    {
+                      "label": "Ratings 4.0+",
+                      "id": "ratingfacetquery4",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ratings 3.5+",
+                      "id": "ratingfacetquery5",
+                      "analytics": {}
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filter by"
+                },
+                {
+                  "label": "Veg/Non-Veg",
+                  "id": "isVeg",
+                  "selection": "SELECT_TYPE_SINGLESELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Pure Veg",
+                      "id": "isVegfacetquery2",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Non Veg",
+                      "id": "isVegfacetquery3",
+                      "analytics": {}
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_FLATTENED",
+                  "subLabel": "Filter by"
+                },
+                {
+                  "label": "Offers",
+                  "id": "restaurantOfferMultiTd",
+                  "selection": "SELECT_TYPE_SINGLESELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Offers",
+                      "id": "restaurantOfferMultiTdfacetquery3",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_FLATTENED",
+                  "subLabel": "Restaurants with"
+                },
+                {
+                  "label": "Cost for two",
+                  "id": "costForTwo",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Rs. 300-Rs. 600",
+                      "id": "costForTwofacetquery3",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Greater than Rs. 600",
+                      "id": "costForTwofacetquery4",
+                      "analytics": {}
+                    },
+                    {
+                      "label": "Less than Rs. 300",
+                      "id": "costForTwofacetquery5",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filter by"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "688719",
+                        "name": "Chinese Wok",
+                        "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+                        "locality": "Rahatan",
+                        "areaName": "Pimple Saudagar",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
+                        "avgRating": 4,
+                        "parentId": "61955",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 6.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "6.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹179"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/chinese-wok-rahatan-pimple-saudagar-pune-688719",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "73434",
+                        "name": "Pizza Hut",
+                        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+                        "locality": "Baner",
+                        "areaName": "Baner",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": ["Pizzas"],
+                        "avgRating": 4,
+                        "parentId": "721",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                              "description": "Delivery!"
+                            }
+                          ]
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              "badgeObject": [
+                                {
+                                  "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                  }
+                                }
+                              ]
+                            },
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/pizza-hut-baner-pune-73434",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "352179",
+                        "name": "CHINESESTORY",
+                        "cloudinaryImageId": "ltp4hc4i2do80c044e7u",
+                        "locality": "Kakade Mala",
+                        "areaName": "Hinjawadi",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Chinese",
+                          "Beverages",
+                          "Snacks",
+                          "Fast Food",
+                          "Indian"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "464680",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 31,
+                          "lastMileTravel": 7,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "7.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/chinesestory-kakade-mala-hinjawadi-pune-352179",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "565123",
+                        "name": "Burger King",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/662bb58f-7b46-40e3-938a-6ca094b2677a_565123.JPG",
+                        "locality": "Panchshil Business Park",
+                        "areaName": "Baner",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": ["Burgers", "American"],
+                        "avgRating": 4.2,
+                        "parentId": "166",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "5K+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 1.6,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.6 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "Rxawards/_CATEGORY-Burger.png",
+                              "description": "Delivery!"
+                            }
+                          ]
+                        },
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {
+                              "badgeObject": [
+                                {
+                                  "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                  }
+                                }
+                              ]
+                            },
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/burger-king-panchshil-business-park-baner-pune-565123",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "355999",
+                        "name": "Hyderabadi Biryani Express",
+                        "cloudinaryImageId": "mssc5c6yxi7yhorqzofj",
+                        "locality": "Baner Pan Club Road",
+                        "areaName": "Baner",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": ["Biryani"],
+                        "avgRating": 3.7,
+                        "parentId": "105161",
+                        "avgRatingString": "3.7",
+                        "totalRatingsString": "1K+",
+                        "sla": {
+                          "deliveryTime": 16,
+                          "lastMileTravel": 1.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "1.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 07:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/hyderabadi-biryani-express-pan-club-road-baner-pune-355999",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "796915",
+                        "name": "La Pino'z Pizza",
+                        "cloudinaryImageId": "e5f54df4ed8bac458b801ede76ee37d0",
+                        "locality": "Balewadi High Street 2",
+                        "areaName": "Business Park",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": [
+                          "Pizzas",
+                          "Pastas",
+                          "Italian",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.1,
+                        "parentId": "4961",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 22,
+                          "lastMileTravel": 0.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "0.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 04:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-balewadi-high-street-2-business-park-pune-796915",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "23706",
+                        "name": "McDonald's",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/b5c7e325-a2b3-4334-b104-0b20df81dd93_23706.JPG",
+                        "locality": "Baner",
+                        "areaName": "Baner",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Burgers",
+                          "Beverages",
+                          "Cafe",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "630",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 15,
+                          "lastMileTravel": 1.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "15-20 mins",
+                          "lastMileTravelString": "1.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 02:45:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "aggregatedDiscountInfoV2": {},
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/mcdonalds-baner-pune-23706",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "12050",
+                        "name": "Subway",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/4/b9c7807f-59bb-4e91-83d4-5048d293f44e_12050.JPG",
+                        "locality": "MAHABALESHWAR HOTEL",
+                        "areaName": "Baner",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": [
+                          "Healthy Food",
+                          "Salads",
+                          "Snacks",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "2",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "10K+",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 4.2,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "4.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 01:59:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "50% OFF",
+                          "subHeader": "UPTO ₹100"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/subway-mahabaleshwar-hotel-baner-pune-12050",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "621695",
+                        "name": "Fried Chicken Destination",
+                        "cloudinaryImageId": "uoq4wttjlzcqmw4n5jp8",
+                        "locality": "Baner Gaon",
+                        "areaName": "Baner",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": ["Burgers", "Snacks", "Fast Food"],
+                        "avgRating": 4.6,
+                        "parentId": "245841",
+                        "avgRatingString": "4.6",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 26,
+                          "lastMileTravel": 1.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "1.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 05:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/fried-chicken-destination-gaon-baner-pune-621695",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "588704",
+                        "name": "Big Loaf Sandwich",
+                        "cloudinaryImageId": "o11fw03vvhveglxneses",
+                        "locality": "Pan Card Club Road",
+                        "areaName": "Baner",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": ["Fast Food", "Snacks", "Beverages"],
+                        "avgRating": 3.2,
+                        "parentId": "352207",
+                        "avgRatingString": "3.2",
+                        "totalRatingsString": "100+",
+                        "sla": {
+                          "deliveryTime": 29,
+                          "lastMileTravel": 0.6,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "0.6 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-06-22 06:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹125 OFF",
+                          "subHeader": "ABOVE ₹249",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {}
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/restaurants/big-loaf-sandwich-pan-card-club-road-baner-pune-588704",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "nextFetch": 3
+    },
+    "jid": "ej8da58d-885b-4285-a2be-7339a1d1923e"
+  },
+  "statusCode": 0
+}

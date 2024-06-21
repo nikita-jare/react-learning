@@ -75,9 +75,11 @@ const Header = () => {
 
           <li className="flex p-3 items-center relative">
             <Link to="/cart">
-              <IoCart className="w-6 h-6" />
-              <div className="absolute -top-0 -right-0 bg-green-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
-                {cartQuantity}
+              <div role="cart">
+                <IoCart className="w-6 h-6" />
+                <div className="absolute -top-0 -right-0 bg-green-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
+                  {cartQuantity}
+                </div>
               </div>
             </Link>
           </li>

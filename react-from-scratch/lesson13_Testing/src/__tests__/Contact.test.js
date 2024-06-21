@@ -3,6 +3,22 @@ import Contact from "../components/Contact";
 import "@testing-library/jest-dom";
 
 describe("Contact component test cases", () => {
+  // beforeAll(() => {
+  //   console.log("Before all tests");
+  // });
+
+  // beforeEach(() => {
+  //   console.log("Before each test");
+  // });
+
+  // afterAll(() => {
+  //   console.log("After all tests");
+  // });
+
+  // afterEach(() => {
+  //   console.log("After each test");
+  // });
+
   test("Should render Contact component", () => {
     render(<Contact />);
 
@@ -39,7 +55,7 @@ describe("Contact component test cases", () => {
     //input role does not exist, its textbox
     //if there are multiple items with the same role, we can use getAllByRole
     const inputFields = screen.getAllByRole("textbox");
-    console.log(inputFields);
+    //console.log(inputFields);
     expect(inputFields).toHaveLength(3);
     expect(inputFields.length).toBe(3);
   });

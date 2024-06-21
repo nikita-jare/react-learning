@@ -25,6 +25,7 @@ const Body = () => {
     const data = await fetch(
       "https://www.swiggy.com/api/seo/getListing?lat=18.5642452&lng=73.7768511"
     );
+    console.log(data);
     const json = await data.json();
     setListOfRestaurants(
       json?.data?.success.cards[1]?.card?.card?.gridElements?.infoWithStyle
@@ -70,6 +71,7 @@ const Body = () => {
       <div className="flex justify-center">
         <input
           className="border border-slate-50 shadow-xl w-3/4 p-2 ml-5 my-5 rounded bg-slate-100 "
+          data-testid="search-input"
           type="text"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
